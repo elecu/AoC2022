@@ -1,10 +1,6 @@
 #! /usr/bin/python
-
-
-
 total = 0
 x=0
-
 with open('/home/EH/Documents/Advent2022/Day1/input.txt') as infile:
     with open('output.txt', 'w') as outfile:
 
