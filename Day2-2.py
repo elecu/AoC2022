@@ -4,8 +4,6 @@ import os
 os.system('./$pwd/split_columns.sh')
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-
-#print("the directory is in %s" % (dir_path))
 f1 = open("%s/1.txt" %(dir_path), "r")  
 f2 = open("%s/2.txt" %(dir_path), "r")  
 
